@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class targetSearchInString {
     public static void returnIndexOfTarget(String str, char key) {
         if (str.isEmpty()) {
-            System.out.println("Error: Empty string provided.");
+            System.out.println("Empty string provided.");
             return;
         }
-        
+
         char[] arr = str.toCharArray();
         boolean found = false; 
         for (int i = 0; i < arr.length; i++) {
